@@ -1,0 +1,40 @@
+// Inputs for IOS and MD
+// ------------------------
+
+.item {
+  background: transparent;
+}
+
+.input-ios,
+.datetime-ios {
+  border-bottom: 1px solid color($colors, light-grey);
+}
+
+.card-md .item-md.item-block .item-inner {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid color($colors, light-grey);
+}
+
+.item-md.item-input .item-inner  {
+  border-bottom: 1px solid color($colors, light-grey)!important;
+}
+
+.item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: color($colors, secondary);
+}
+
+.item-ios.input-has-focus .input {
+  border-bottom: 1px solid color($colors, secondary);
+}
+
+.list-ios > .item-block:first-child,
+.list-ios > .item-block:last-child,
+.list-ios > .item-wrapper:last-child .item-block {
+  border: 0;
+}
+
+.item-ios.item-block .item-inner {
+  border-bottom: none;
+}

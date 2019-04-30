@@ -1,0 +1,15 @@
+.private-page {
+  background: url("../assets/imgs/bg.png");
+}
+
+ion-header{
+  padding-bottom: 0px !important;
+}
+
+ion-avatar img {
+  border-radius: 5px !important;
+}
+
+ion-content.has-refresher > .scroll-content {
+  border-top: 0;
+}

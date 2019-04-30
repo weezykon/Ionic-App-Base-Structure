@@ -1,0 +1,23 @@
+// Buttons
+
+.job-button {
+  text-decoration: none;
+  color: color($colors, dark);
+  background: none;
+  border: 1px solid color($colors, almost-dark);
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+.full-button {
+  width: 100%;
+}
+
+a,
+.link-button {
+  text-decoration: none;
+  color: color($colors, secondary);
+  font-weight: 700;
+  background: none;
+  font-size: 1.3rem;
+}

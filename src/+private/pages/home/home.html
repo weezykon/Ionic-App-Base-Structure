@@ -1,0 +1,20 @@
+<ion-header no-padding no-border>
+  <ion-row class="headbar">
+    <ion-col col-1 (click)="openMenu()">
+      <ion-icon menuToggle="menus" class="menu-icon" color="primary" margin-top float-right right name="menu"></ion-icon>
+    </ion-col>
+    <ion-col col-10>
+      <ion-searchbar placeholder="search for item" [(ngModel)]="searchTerm" [formControl]="searchControl" padding-top>
+      </ion-searchbar>
+    </ion-col>
+    <ion-col col-1>
+      <ion-icon class="menu-icon" (click)="filteritems()" color="primary" margin-top float-right right name="ios-funnel"></ion-icon>
+    </ion-col>
+  </ion-row>
+</ion-header>
+
+<ion-content no-padding>
+  <ion-row class="slider">
+
+  </ion-row>
+</ion-content>

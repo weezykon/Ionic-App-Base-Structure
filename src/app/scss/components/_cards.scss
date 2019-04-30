@@ -1,0 +1,145 @@
+// CARD FOR DIFFERENT PAGES
+
+.events-card {
+  background-color: #fcfffc;
+
+  .event-title {
+    font-size: 1.6rem;
+  }
+}
+
+.job-card {
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+
+  .job-title {
+    font-size: 1.7rem;
+  }
+
+  .job-type {
+    background-color: #E7E6F7;
+    border-radius: 5px;
+    color: #28262c;
+    padding: 0.5rem;
+    width: fit-content;
+  }
+
+  .job-org {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+}
+
+.hope-card {
+  background-color: #fcfffc;
+
+  .hope-title {
+    font-size: 1.6rem;
+  }
+}
+
+.dues-card {
+  .card-header {
+    font-weight: 700;
+    color: color($colors, primary);
+
+    p {
+      font-weight: 300;
+    }
+  }
+
+  .total p {
+    font-size: 2.2rem;
+    font-weight: 300;
+  }
+}
+
+.discover-card {
+  background: #f3f6f7;
+
+  .news-title {
+    font-size: 1.6rem;
+  }
+}
+
+.card-header {
+  white-space: normal;
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  .date {
+    font-size: 1.1rem;
+    color: color($colors, light-grey);
+  }
+}
+
+.click-baits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .click-baits-card.card-ios,
+  .click-baits-card.card-md {
+    width: calc(33.33% - 20px);
+    height: 11rem;
+    background: #f3f6f7;
+    // TO DO
+    // background: #9893DA;
+    position: relative;
+    margin: 10px;
+
+    .card-header {
+      padding: 10px;
+    }
+
+    ion-card-content {
+      font-size: 1rem;
+      bottom: 0;
+      position: absolute;
+      padding: 10px;
+      color: color($colors, dark-grey);
+    }
+  }
+
+  .card-ios + ion-card,
+  .card-md + ion-card {
+    margin-top: 12px;
+  }
+}
+
+.news-card {
+  position: relative;
+  width: 100%;
+  margin: 16px 0;
+  border-radius: 5px;
+  height: 12rem;
+  overflow: hidden;
+  background-image: url('../../../assets/imgs/no-news.png');
+
+  .sp-image {
+    border-radius: 5px;
+  }
+
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(1, 1, 1, 0.7973564425770308) 0%, rgba(22, 13, 45, 0.09427521008403361) 82%);
+  }
+
+  .title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+
+    .h3 {
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 1.7rem;
+    }
+  }
+}

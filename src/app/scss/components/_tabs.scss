@@ -1,0 +1,8 @@
+.tabbar{
+    background: color($colors, light)!important;
+}
+
+.tab-button[aria-selected=true], .tab-button[aria-selected=true] .tab-button-icon, .tab-button,.tab-button .tab-button-icon{
+    color: color($colors, primary)!important;
+}
+

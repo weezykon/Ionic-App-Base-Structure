@@ -1,0 +1,47 @@
+// SEARCH BAR
+
+.discover-searchbar {
+  background: transparent !important;
+
+  .searchbar-input {
+    background-color: color($colors, almost-white);
+  }
+
+  .searchbar-ios .searchbar-input {
+    padding: 15px 30px;
+  }
+}
+
+.discover-searchbar {
+  padding: 8px 0;
+  border-bottom: unset;
+}
+
+.discover-searchbar.searchbar-ios .searchbar-input {
+  padding: 15px 30px;
+}
+
+.searchbar-md .searchbar-input {
+  background: #F7F7F7 !important;
+  box-shadow: none !important;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+}
+
+.headbar {
+  height: 70px !important;
+  background: #FBFBFB !important;
+}
+
+.searchbar-ios {
+  background: unset !important;
+}
+
+.menu-icon {
+  font-size: 1.8em !important;
+  margin-top: 8px;
+}
+
+ion-searchbar{
+  padding-top: 8px!important;
+}

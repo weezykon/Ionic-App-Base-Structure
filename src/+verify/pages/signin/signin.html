@@ -1,0 +1,25 @@
+<ion-content padding>
+    <span>
+        <ion-icon (click)="closeModal()" *ngIf="closeIcon" float-right color="sblue" right name="close"></ion-icon>
+    </span>
+
+    <div padding>
+        <div text-center>
+            <img padding-bottom src="assets/imgs/shield.png" alt="">
+        </div>
+        <p ion-text color="sblue" class="logintext" text-center>Login</p>
+
+        <ion-item no-padding no-lines>
+            <ion-label class="textplaceholder" stacked>Email Address</ion-label>
+            <ion-input class="inputfield" [(ngModel)]="email" type="email" placeholder=""></ion-input>
+        </ion-item>
+        <ion-item no-padding no-lines>
+            <ion-label class="textplaceholder" stacked>Password</ion-label>
+            <ion-input class="inputfield" [(ngModel)]="password" type="password" placeholder=""></ion-input>
+        </ion-item>
+
+        <p class="forgot" text-left> Forgotten Password</p>
+        <button (click)="login()" class="loginbutton" ion-button color="sblue" full> Login</button>
+        <p (click)="gotosignup()" class="forgot" text-center>Don't have an Account?<span ion-text color="sgreen">SignUp</span></p>
+    </div>
+</ion-content>

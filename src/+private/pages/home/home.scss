@@ -1,0 +1,114 @@
+page-home {
+    ion-content {
+        background-color: #F3F3F3 !important;
+    }
+
+    .slider {
+        background: rgba(78, 39, 150, 0.4) !important;
+        height: 135px !important;
+    }
+
+    .menu-icon {
+        font-size: 1.8em !important;
+        margin-top: 8px;
+    }
+
+    .cat {
+        &-scroll {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+
+            div {
+                flex: 0 0 auto;
+                padding: 10px;
+                text-align: center;
+                width: 100px;
+
+                p {
+                    font-size: 9px;
+                }
+
+                img {
+                    width: 40px;
+                }
+            }
+        }
+
+        p {
+            font-size: 10px;
+        }
+    }
+
+    .items {
+        display: flex;
+        -webkit-overflow-scrolling: touch;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        .item-card {
+            flex: 0 0 1;
+            background: white;
+            margin: 2.5%;
+            width: 45%;
+
+            &-head {
+                p {
+                    font-size: 10px;
+                }
+            }
+
+            &-body {
+                .name {
+                    font-size: 12px;
+                    color: color($colors, dark) !important;
+                    font-weight: 700;
+                }
+
+                .price {
+                    color: color($colors, dark) !important;
+                    font-size: 10px;
+
+                    b {
+                        color: color($colors, primary);
+                    }
+                }
+
+                img {
+                    @media screen and (max-width: 576px) {
+                        max-width: 100%;
+                        height: 157px !important;
+                        width: 100%;
+                    }
+
+                    @media screen and (min-width: 768px) {
+                        max-width: 70%;
+                    }
+
+                    @media screen and (min-width: 1024px) {
+                        max-width: 100%;
+                    }
+                }
+            }
+
+            &-footer {
+                button {
+                    font-size: 1.2rem !important;
+                    height: 3.2rem !important;
+                }
+            }
+        }
+
+    }
+
+    .truncate-ellipsis {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        max-width: 100%;
+    }
+}
