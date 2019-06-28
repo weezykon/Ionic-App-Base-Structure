@@ -12,6 +12,7 @@ import {
 import { UserService } from "../app/services/user.service";
 import { AlertController } from "ionic-angular";
 import { HomePage } from "./pages/home/home";
+import { LoginPage } from './../+verify/pages/login/login';
 @Component({
   selector: "private-template",
   templateUrl: "private-template.html"
@@ -20,8 +21,8 @@ export class PrivateTemplate {
 
   @ViewChild(Tabs) tabs: Tabs;
 
-  rootPage = HomePage;
-  HomePage = HomePage;
+  rootPage = LoginPage;
+  // HomePage = HomePage;
 
   // sideMenu: object = {
   //   Products: [

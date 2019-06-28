@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.purplemoneyrent.ng" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.baseionic.ng" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Purplemoneyrent</name>
     <description>Purplemoney is an online loan platform</description>
-    <author email="contact@cerveapp.com" href="https://cerveapp.com/">CityTech</author>
+    <author email="weezykon@gmail.com" href="https://example.com/">CityTech</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />

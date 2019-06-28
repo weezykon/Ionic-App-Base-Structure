@@ -3,48 +3,32 @@ import {NgModule} from '@angular/core';
 import {IonicApp, IonicModule} from 'ionic-angular';
 
 // import { HeaderComponent } from "./components/header/header";
-
 // Pages Start
-
-import { SignupPage } from './pages/signup/signup';
-import { SigninPage } from './pages/signin/signin';
+import {LoginPage} from './pages/login/login';
 import {HeaderPage} from './components/header/header';
-import{ForgotpasswordPage}  from './pages/forgotpassword/forgotpassword';
-
+import {ForgotpasswordPage}  from './pages/forgotpassword/forgotpassword';
 // Pages End
 
-
 // Services Start
-
 import { SigninService } from "./services/signin.service";
-
 import { SignupService } from "./services/signup.service";
-import { GetstartedPage } from './pages/getstarted/getstarted';
 // import { RegisterService } from "./services/register.service"
 
 //  Services End
-
-
 @NgModule({
   declarations: [
- 
-    SigninPage,
-    SignupPage,
+    LoginPage,
     ForgotpasswordPage,
-    HeaderPage,
-    GetstartedPage
+    HeaderPage
   ],
   imports: [
     IonicModule,
   ],
   bootstrap:[IonicApp],
   entryComponents: [
- 
-    SigninPage,
-    SignupPage,
+    LoginPage,
     ForgotpasswordPage,
-    HeaderPage,
-    GetstartedPage
+    HeaderPage
   ],
   providers: [
     SigninService,

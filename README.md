@@ -1,2 +1,2 @@
-# purplemoney-rent-app
+# Ionic Base App Structure
 Ionic App

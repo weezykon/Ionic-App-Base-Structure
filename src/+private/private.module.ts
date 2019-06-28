@@ -24,7 +24,7 @@ import { ImageLoader } from './components/img-loader/img-loader';
   entryComponents: [
     PageheaderPage,
     PrivateTemplate,
-    HomePage,
+    HomePage
   ],
   providers: [
 
